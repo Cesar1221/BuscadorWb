@@ -1,0 +1,36 @@
+div{
+    margin-left: 3px;
+}
+#boton{
+    background: green;
+    color: white;
+}
+#cont {
+    background-color: aquamarine; 
+    width: 205px;
+    margin-left: 60px; 
+}
+span{
+    color: gray;
+}
+a{
+    color: rgb(121, 119, 119);
+    text-decoration-style: none;
+}
+
+
+// RESPONSIVE
+// Desde la anchura 963px hasta la anchura 1488px de pantalla
+@media (max-width: 1488px){
+    /*Se ejecutarán estos estilos*/
+    .container{
+        width: 85%;
+    }
+}
+
+/*Desde la anchura 0px hasta la anchura 963px de pantalla*/
+@media (max-width: 1314px){
+    .container  {
+        width: 95%;
+    }
+}

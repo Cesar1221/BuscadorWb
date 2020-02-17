@@ -1,0 +1,39 @@
+div{
+    margin-top: 10px;
+}
+#boton{
+    background: green;
+    margin-top: 10px;
+    height: 38px;
+//     margin-left: 183%;
+//     margin-top: -60px;
+//     // margin-top: -156px; //alto 56
+//     // margin-left: 250px; //Izquierda
+}
+.container {
+    background-color: aquamarine;
+    margin-top: 100px;
+}
+span{
+    color: gray;
+}
+a{
+    color: rgb(121, 119, 119);
+    text-decoration-style: none;
+}
+
+// RESPONSIVE
+// Desde la anchura 963px hasta la anchura 1488px de pantalla
+@media (max-width: 1488px){
+    /*Se ejecutarán estos estilos*/
+    .container{
+        width: 85%;
+    }
+}
+
+/*Desde la anchura 0px hasta la anchura 963px de pantalla*/
+@media (max-width: 1314px){
+    .container  {
+        width: 95%;
+    }
+}
