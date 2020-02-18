@@ -9,7 +9,7 @@ class Forms extends React.Component {
 
     constructor(props){
         super(props)
-        this.msg = <h5>No existe nigún enlace relaiconado...</h5>
+        this.msg = <h5>No existe nigún enlace relacionado...</h5>
     }
 
     render(){
