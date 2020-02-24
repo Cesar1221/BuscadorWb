@@ -2,7 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import '../../assets/scss/buscador1.scss'
-import logo from "../../assets/images/logo.jpg";
 
 class Buscador1 extends React.Component {
 
@@ -16,11 +15,6 @@ class Buscador1 extends React.Component {
    
     return (
       <div className="container">
-        {/* <h3 id="titulo">Buscador</h3>
-
-        <div>
-          <img src={logo} />
-        </div> */}
 
         <div className="row">
 
